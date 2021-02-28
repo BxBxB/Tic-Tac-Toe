@@ -1,0 +1,106 @@
+body {
+	text-align: center;
+	padding: 15px;
+	background: #fff;
+	background-image: url("https://d1yn1kh78jj1rr.cloudfront.net/preview/seamless-texture-with-tic-tac-toe-vector_Xyx2l8_S.jpg");
+	background-size: cover;
+	font-family: Permanent Marker;
+}
+
+form {
+	font-size: 1.5em;
+	width: 15.5em;
+	line-height: 2.5em;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+input:radio {
+	margin-right: 25px;
+}
+
+.container-fluid {
+	padding: 0;
+	width: 452px;
+	background: #111;
+	color: #eee;
+	box-shadow: inset 0 -1px 6px #000, 5px 5px 15px #000;
+}
+
+.box {
+	border: 5px solid #000;
+	font-size: 5.5em;
+	height: 131px;
+	cursor: pointer;
+	font-family: Permanent Marker;
+	box-shadow: inset 2px -1px 6px #000, 5px 5px 15px #000;
+}
+
+.tl,
+.ml,
+.bl {
+	border-left: 0px solid #111;
+}
+
+.tr,
+.mr,
+.br {
+	border-right: 0px solid #111;
+}
+
+.bl,
+.bm,
+.br {
+	border-bottom: 0px solid #111;
+}
+
+.tl,
+.tm,
+.tr {
+	border-top: 0px solid #fff;
+}
+
+.dialog {
+	background: #fff;
+	color: #222;
+	margin: 0 auto;
+	padding-top: 2em;
+	width: 420px;
+	height: 394px;
+	box-shadow: inset 2px -1px 6px #000, 5px 5px 15px #000;
+}
+
+.score {
+	color: #eee;
+	font-weight: 900;
+	background: #111;
+	margin: 0 auto;
+	padding: 5px 3em 0px 3em;
+	width: 420px;
+}
+
+#comm {
+	font-size: 3.5em;
+	margin-bottom: 0.3em;
+}
+
+.btn {
+	font-size: 2em;
+	background: #111;
+	color: #ddd;
+	margin: 0 auto;
+	width: 7em;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.game {
+	border: 1px solid #444;
+	width: 390px;
+	margin: 0 auto;
+	margin-top: 0em;
+	background: #fff;
+	box-shadow: inset 0 -1px 6px #000, 5px 5px 15px #000;
+}
